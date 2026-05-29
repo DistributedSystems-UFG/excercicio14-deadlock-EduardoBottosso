@@ -36,8 +36,6 @@ public class DeadlockExample {
         }, "Thread-2");
 
         thread1.start();
-        thread1.join();
         thread2.start();
-        thread2.join();
     }
 }
